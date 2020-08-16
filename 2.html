@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body,
+        {
+            margin:0;
+        }
+</style>
+</head>
+<body>
+    <div class="login form">
+    <div style="display:flex;
+    background-color:rgba(231, 59, 93, 0.774);
+    justify-content: center;
+    align-items: center;
+    height:70vh;
+    width:60vh;
+    font-family: cursive;
+    border-radius:16px;
+    padding:8px;
+    font-size:18px;
+    margin-left: 105px;
+    margin-top: 50px;
+    text-align:center;
+    cursor: pointer;
+    border:3px solid black;">
+    <form action="">
+        <h1 style="color:indigo">welcome</h1>
+          <label for ="Username"></label>
+        Username<input type="text" name="name" placeholder="Username" required>
+         <br></br>
+
+         <label for ="password"></label>
+        Password<input type="password" name="password" placeholder="password" pattern="(?./*=)(?./*=[a-z])(?./*=[A-Z]{8,})" required>
+         <br></br>
+
+         <label for ="Email"></label>
+        Email<input type="email" placeholder="type here" required>
+         <br></br>
+         
+         <label for ="Submit"></label>
+         <button  style=" background-color:green;border-radius:2px;" onclick="submit">submit</button>
+         keep me logged in<input type="checkbox"   placeholder="keep me logged in">
+         <br>
+         
+       
+    </form>
+    
+    </div>
+</div>
+</body>
+</html>
